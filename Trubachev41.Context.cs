@@ -12,7 +12,7 @@ namespace Trubachev41
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    
+
     public partial class Trubachev41Entities : DbContext
     {
         private static Trubachev41Entities _context;

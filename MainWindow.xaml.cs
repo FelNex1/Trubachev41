@@ -23,7 +23,7 @@ namespace Trubachev41
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Navigate(new ServicePage());
+            MainFrame.Navigate(new AuthPage());
             Manager.MainFrame= MainFrame;
         }
 

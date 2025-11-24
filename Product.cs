@@ -40,9 +40,7 @@ namespace Trubachev41
                     return null;
                 return "Товар_import/" + ProductImage;
             }
-            //set;
         }
-
         public string ProductStatus { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
