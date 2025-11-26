@@ -30,7 +30,7 @@ namespace Trubachev41
             if (currentUser.UserID == 0 || currentUser.UserLogin == "guest")
             {
                 FIOTB.Text = "Вы вошли как гость";
-                RoleTB.Text = "Клиент";
+                RoleTB.Text = "Гость";
             }
             else
             {
